@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
-class Solver # rubocop:todo Style/Documentation
+# class solver
+class Solver
   def factorial(num)
     raise 'Please enter a positive integer' if num.negative?
 
