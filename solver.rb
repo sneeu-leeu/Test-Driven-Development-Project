@@ -10,4 +10,8 @@ class Solver
     (1..num).inject(:*) || 1
    end
   end
+
+  def reverse(str)
+    str.reverse
+  end
 end

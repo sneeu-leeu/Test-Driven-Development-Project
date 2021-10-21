@@ -1,4 +1,4 @@
-require 'solver'
+require './solver'
 
 describe Solver do
   before :each do
@@ -20,7 +20,7 @@ describe Solver do
 
     context 'negative integers' do
       it 'should raise an error' do
-        expect { @solver.factorial(-1) }.to raise_error('Negative integer given')
+        expect { @solver.factorial(-1) }.to raise_error('Please enter a positive integer')
       end
     end
   end
