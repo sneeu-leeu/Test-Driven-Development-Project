@@ -1,14 +1,14 @@
-class Solver
+# frozen_string_literal: true
 
+class Solver
   def factorial(num)
-    
     raise 'Please enter a positive integer' if num.negative?
 
-   if num.zero?
-    1
-   else
-    (1..num).inject(:*) || 1
-   end
+    if num.zero?
+      1
+    else
+      (1..num).inject(:*) || 1
+    end
   end
 
   def reverse(str)
