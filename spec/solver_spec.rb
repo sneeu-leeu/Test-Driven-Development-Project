@@ -2,7 +2,7 @@
 
 require './solver'
 
-describe Solver do
+describe Solver do # rubocop:todo Metrics/BlockLength
   before :each do
     @solver = Solver.new
   end
