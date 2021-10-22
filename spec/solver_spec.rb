@@ -1,6 +1,6 @@
 require './solver'
 
-describe Solver do # rubocop:todo Metrics/BlockLength
+describe Solver do
   before :each do
     @solver = Solver.new
   end
